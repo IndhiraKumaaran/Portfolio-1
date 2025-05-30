@@ -15,21 +15,21 @@ const Projects = () => {
       description:
         'Built a full-stack app for browsing products and managing shopping carts.',
       tech: [<FaReact />, <FaJava />, <SiSpringboot />, <SiMysql />],
-      github: 'https://github.com/yourusername/ecommerce-platform',
+      github: 'https://github.com/IndhiraKumaaran/E-commerce-Project',
     },
     {
       name: 'Task Manager App',
       description:
         'Designed a full-stack task management app with user authentication and task categorization.',
       tech: [<FaReact />, <FaJava />, <SiSpringboot />, <SiMysql />],
-      github: 'https://github.com/yourusername/task-manager',
+      github: 'https://github.com/IndhiraKumaaran/task-manager',
     },
     {
       name: 'Weather Now',
       description:
         'Developed a responsive weather app fetching real-time data via API.',
       tech: [<SiHtml5 />, <SiCss3 />, <SiJavascript />],
-      github: 'https://github.com/yourusername/weather-now',
+      github: 'https://github.com/IndhiraKumaaran/weatherApp',
     },
   ]
 

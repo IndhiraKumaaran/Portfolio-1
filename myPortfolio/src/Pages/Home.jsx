@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="container text-center mt-5" style={{ fontFamily: 'Poppins, sans-serif' }}>
       <img
-        src=".\src\assets\profilePic.jpg"
+        src="myPortfolio\public\profilePic.jpg"
         alt="Profile"
         className="rounded-circle mb-4 shadow"
         width="150"

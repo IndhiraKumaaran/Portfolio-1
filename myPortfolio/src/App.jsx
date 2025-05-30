@@ -9,16 +9,18 @@ import LoadingScreen from './Pages/LoadingScreen'
 function App() {
   const [loading, setLoading] = useState(true)
 
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<RootLayout />}>
-        <Route index element={<Home />} />
-        <Route path="Skills" element={<Skills />} />
-        <Route path="Projects" element={<Projects />} />
-        <Route path="Contact" element={<Contact />} />
-      </Route>
-    )
-  )
+ const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route index element={<Home />} />
+      <Route path="Skills" element={<Skills />} />
+      <Route path="Projects" element={<Projects />} />
+      <Route path="Contact" element={<Contact />} />
+    </Route>
+  ),
+  { basename: '/Portfolio-1' }  // <-- add this option here
+)
+
 
   return (
     <>

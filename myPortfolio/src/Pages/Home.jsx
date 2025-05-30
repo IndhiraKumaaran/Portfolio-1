@@ -20,6 +20,10 @@ const Home = () => {
         From sleek React interfaces to robust Java APIs, I craft full stack experiences that are clean,
         fast, and built to scale.
       </p>
+
+      <footer style={{ marginTop: '3rem', color: '#888', fontSize: '0.9rem' }}>
+        &copy; {new Date().getFullYear()} Indhira Kumaaran. All rights reserved.
+      </footer>
     </div>
   )
 }
